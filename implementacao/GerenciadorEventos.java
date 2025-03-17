@@ -13,7 +13,8 @@ class GerenciadorEventos {
     evento.executar();
     for (NotificacaoListener listener : listeners) {
     listener.onEventoOcorreu("Evento ocorreu: " + evento.getNome());
-            }
-        }
+    }
+    }
     }
    }
+   
